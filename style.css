@@ -1,0 +1,85 @@
+:root {
+  --bg : #26324F;
+  --boxBG: linear-gradient(45deg, rgba(55,64,97,1) 0%, rgba(34,45,71,1) 100%);
+  --headerBG: linear-gradient(45deg, rgba(147,124,228,1) 0%, rgba(240,78,153,1) 100%);
+}
+
+.config-ui-x-dark-mode-pink gridster-item{
+background: rgb(55,64,97);
+background: var(--boxBG);
+box-shadow: 1px 1px 4px #1D273F;
+}
+
+.config-ui-x-dark-mode-pink .qr-code-container {
+  background: transparent;
+}
+
+div.drag-handler.pl-2.pt-1.pb-1.pr-2 {
+  background: transparent;
+}
+
+div.p-2 {
+  background: transparent;
+}
+
+app-homebridge-logs-widget div.flex-column.d-flex.align-items-stretch.h-100.w-100{
+  background: transparent;
+}
+
+div.xterm-screen {
+  background: transparent;
+}
+
+canvas.xterm-cursor-layer {
+  background: transparent;
+}
+
+body {
+  background: var(--bg)
+}
+
+nav.navbar.fixed-top.navbar-expand-lg.navbar-dark.bg-primary.scrolling-navbar {
+background: var(--headerBG);
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+div.card.card-body.mb-3 {
+background: var(--boxBG);
+box-shadow: 1px 1px 4px #1D273F;
+}
+
+.config-ui-x-dark-mode-pink .primary-text {
+  background:var(--headerBG);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.modal-body {
+  background: var(--boxBG);
+  }
+
+div.card.card-body {
+  background: transparent;
+}
+
+div.modal-footer.justify-content-between {
+  background: var(--boxBG);
+}
+
+div.modal-header {
+  background: var(--headerBG);
+}
+
+h5.modal-title {
+  color: white;
+}
+
+.config-ui-x-dark-mode-pink .accessory-box {
+    background: var(--boxBG);
+}
+
+.config-ui-x-dark-mode-pink .switch-on{
+    background: var(--headerBG);
+
+}
